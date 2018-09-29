@@ -70,3 +70,6 @@
     v0.0.2  放出 Builder(this,R.style.AppDialogStyle) 两个构造函数的访问权限  
 
 ### 效果图 下载demo看吧 
+
+
+### Demo 地址  https://github.com/fazhongxu/LAlertDialog/blob/master/apk/lalertdialog.apk
