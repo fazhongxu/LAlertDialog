@@ -59,8 +59,14 @@
 
 ```
     dependencies {
-	        implementation 'com.github.fazhongxu:LAlertDialog:v0.0.1'
+	        implementation 'com.github.fazhongxu:LAlertDialog:v0.0.2'
 	}
 ```
+
+#### version report
+
+    v0.0.1  基本功能实现 第一个版本
+    
+    v0.0.2  放出 Builder(this,R.style.AppDialogStyle) 两个构造函数的访问权限  
 
 ### 效果图 下载demo看吧 
