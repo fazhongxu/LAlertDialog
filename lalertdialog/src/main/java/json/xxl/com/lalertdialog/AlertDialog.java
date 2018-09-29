@@ -58,7 +58,7 @@ public class AlertDialog extends Dialog {
             this(context, R.style.AppDialogStyle);
         }
 
-        Builder(Context context, int themeId) {
+        public Builder(Context context, int themeId) {
             P = new AlertController.AlertParams(context, themeId);
         }
 

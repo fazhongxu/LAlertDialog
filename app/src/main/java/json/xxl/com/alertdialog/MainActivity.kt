@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
             when(position) {
                 0 -> {
                     alertDialog =
-                            AlertDialog.Builder(this)
+                            AlertDialog.Builder(this,R.style.AppDialogStyle)
                                     .setContentView(R.layout.ui_test_dialog_layout)
                                     .setFromBottom(false)
                                     .setOnClickLisenter(R.id.ui_dialog_ok_btn) {
@@ -51,7 +51,6 @@ class MainActivity : AppCompatActivity() {
                     alertDialog =
                             AlertDialog.Builder(this)
                                     .setContentView(R.layout.ui_test_dialog_layout)
-                                    .setFromBottom(true)
                                     .setOnClickLisenter(R.id.ui_dialog_ok_btn) {
                                         alertDialog?.dismiss()
                                     }
@@ -63,6 +62,7 @@ class MainActivity : AppCompatActivity() {
                             AlertDialog.Builder(this)
                                     .setContentView(R.layout.ui_test_dialog_layout)
                                     .setCancelable(false)
+                                    .setFromBottom(true)
                                     .setOnClickLisenter(R.id.ui_dialog_ok_btn) {
                                         alertDialog?.dismiss()
                                     }

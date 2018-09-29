@@ -7,7 +7,11 @@
 ```
 
    alertDialog =
-               AlertDialog.Builder(this)
+               // 这里是kotlin 方式不用new  Java 使用需要new 创建对象
+               //Builder(this) 有两个构造方法  单个参数 Context 两个参数的构造 第一为 Context 第二个为自定义的dialog 的主题 
+               //如 Builder(this,R.style.AppDialogStyle)
+               
+               AlertDialog.Builder(this)   
                         //设置布局 参数 布局id 或者 布局 view
                        .setContentView(R.layout.ui_test_dialog_layout) 
                        //设置弹出和消失的默认动画           
@@ -58,3 +62,5 @@
 	        implementation 'com.github.fazhongxu:LAlertDialog:v0.0.1'
 	}
 ```
+
+### 效果图 下载demo看吧 
