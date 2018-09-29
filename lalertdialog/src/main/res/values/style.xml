@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppDialogStyle" parent="Theme.AppCompat.Dialog">
+        <!--无边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--无标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--是否悬浮在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否半透明-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--dialog背景-->
+        <item name="android:background">@android:color/transparent</item>
+        <!--window背景-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="DialogFromBottom">
+        <item name="android:windowEnterAnimation">@anim/dialog_from_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_from_bottom_out</item>
+    </style>
+    
+    <style name="DialogDefaultAnimation">
+        <item name="android:windowEnterAnimation">@anim/dialog_scale_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_scale_out</item>
+    </style>
+</resources>

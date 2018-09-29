@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorAccent"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/ui_dialog_input_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sample_text_hint"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_toLeftOf="@+id/ui_dialog_ok_btn"
+        android:textColorHint="@color/white"
+        android:text="" />
+
+    <Button
+        android:id="@+id/ui_dialog_ok_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/white"
+        android:text="ok" />
+
+</RelativeLayout>
