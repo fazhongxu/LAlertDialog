@@ -1,8 +1,10 @@
 package json.xxl.com.alertdialog
 
-import android.support.v7.app.AppCompatActivity
+import android.content.res.ColorStateList
+import android.os.Build
 import android.os.Bundle
 import android.support.v4.content.ContextCompat
+import android.support.v7.app.AppCompatActivity
 import android.text.TextUtils
 import android.widget.Button
 import android.widget.Toast
@@ -28,9 +30,12 @@ class MainActivity : AppCompatActivity() {
                 0 -> {
                     alertDialog =
                             AlertDialog.Builder(this,R.style.AppDialogStyle)
-                                    .setContentView(R.layout.ui_test_dialog_layout)
-                                    .setFromBottom(false)
-                                    .setOnClickLisenter(R.id.ui_dialog_ok_btn) {
+                                    .setContentView(R.layout.ui_ok_and_cancel_dialog_layout)
+                                    .setText(R.id.ui_dialog_left_btn,"left")
+                                    .setText(R.id.ui_dialog_right_btn,"right")
+                                    .setText(R.id.ui_dialog_title_tv,"Title")
+                                    .setText(R.id.ui_dialog_content_tv,"I am Content")
+                                    .setOnClickLisenter(R.id.ui_dialog_right_btn) {
                                         alertDialog?.dismiss()
                                     }
                                     .show()
@@ -49,12 +54,22 @@ class MainActivity : AppCompatActivity() {
 
                 2->{
                     alertDialog =
-                            AlertDialog.Builder(this)
-                                    .setContentView(R.layout.ui_test_dialog_layout)
-                                    .setOnClickLisenter(R.id.ui_dialog_ok_btn) {
+                            AlertDialog.Builder(this,R.style.AppDialogStyle)
+                                    .setContentView(R.layout.ui_ok_and_cancel_dialog_layout)
+                                    .setText(R.id.ui_dialog_left_btn,"cancel")
+                                    .setText(R.id.ui_dialog_right_btn,"ok")
+                                    .setText(R.id.ui_dialog_title_tv,"")
+                                    .setText(R.id.ui_dialog_content_tv,"Title 被我干掉了 右边按钮颜色被我改掉了")
+                                    .setOnClickLisenter(R.id.ui_dialog_right_btn) {
                                         alertDialog?.dismiss()
                                     }
                                     .show()
+                    val rightBtn = alertDialog?.getView(R.id.ui_dialog_right_btn) as Button
+
+                    val background = rightBtn.background
+                    if (background != null && Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                        rightBtn.backgroundTintList = ColorStateList.valueOf(ContextCompat.getColor(this,R.color.colorAccent))
+                    }
                 }
 
                 3 -> {
@@ -169,6 +184,7 @@ class MainActivity : AppCompatActivity() {
 
                                     .show()
                 }
+
 
                /* else ->{
                     alertDialog =
