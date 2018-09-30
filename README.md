@@ -82,9 +82,9 @@
 
 ### 效果图 
 
-![image] (https://github.com/fazhongxu/LAlertDialog/blob/master/images/001.png)
+![image](https://github.com/fazhongxu/LAlertDialog/blob/master/images/001.png)
 
-![image] (https://github.com/fazhongxu/LAlertDialog/blob/master/images/002.png)
+![image](https://github.com/fazhongxu/LAlertDialog/blob/master/images/002.png)
 
 
 ###demo apk
