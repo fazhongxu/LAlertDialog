@@ -82,7 +82,7 @@
 
 ### 效果图 
 
-<img src="https://github.com/fazhongxu/LAlertDialog/blob/master/images/001.png" width="40%" height="20%">
+<img src="https://github.com/fazhongxu/LAlertDialog/blob/master/images/001.png" width="20%" height="5%">
 
 <img src="https://github.com/fazhongxu/LAlertDialog/blob/master/images/002.png" width="30%" height="10%">
 
