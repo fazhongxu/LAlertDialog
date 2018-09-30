@@ -81,7 +81,9 @@
     v0.0.2  放出 Builder(this,R.style.AppDialogStyle) 两个构造函数的访问权限  
 
 ### 效果图 
+
 ![image] (https://github.com/fazhongxu/LAlertDialog/blob/master/images/001.png)
+
 ![image] (https://github.com/fazhongxu/LAlertDialog/blob/master/images/002.png)
 
 
