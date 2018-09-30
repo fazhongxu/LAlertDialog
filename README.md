@@ -82,11 +82,12 @@
 
 ### 效果图 
 
-![image](https://github.com/fazhongxu/LAlertDialog/blob/master/images/001.png)
-
 <img src="https://github.com/fazhongxu/LAlertDialog/blob/master/images/001.png" width="40%" height="20%">
 
 ![image](https://github.com/fazhongxu/LAlertDialog/blob/master/images/002.png)
+
+<img src="https://github.com/fazhongxu/LAlertDialog/blob/master/images/002.png" width="30%" height="10%">
+
 
 
 ###demo apk
