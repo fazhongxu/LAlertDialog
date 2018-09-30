@@ -84,7 +84,7 @@
 
 ![image](https://github.com/fazhongxu/LAlertDialog/blob/master/images/001.png)
 
-<img src = https://github.com/fazhongxu/LAlertDialog/blob/master/images/001.png width = 80%,height = 80%/>
+<img src=https://github.com/fazhongxu/LAlertDialog/blob/master/images/001.png width = "80%",height = "80%"/>
 
 
 ![image](https://github.com/fazhongxu/LAlertDialog/blob/master/images/002.png)
