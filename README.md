@@ -85,7 +85,7 @@
 <img src="https://github.com/fazhongxu/LAlertDialog/blob/master/images/002.png" width="50%" height="20%">
 
 #### Dialog展示轮播图
-<img src="https://github.com/fazhongxu/LAlertDialog/blob/master/images/003.jpg" width="20%" height="5%">
+<img src="https://github.com/fazhongxu/LAlertDialog/blob/master/images/003.jpg" width="50%" height="20%">
 
 ### demo apk
 ### Demo 地址  https://github.com/fazhongxu/LAlertDialog/blob/master/apk/lalertdialog.apk
