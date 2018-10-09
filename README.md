@@ -81,12 +81,10 @@
     v0.0.2  放出 Builder(this,R.style.AppDialogStyle) 两个构造函数的访问权限  
 
 ### 效果图 
-<div width = "50%" height = "20%">
 <img src="https://github.com/fazhongxu/LAlertDialog/blob/master/images/001.png" width="50%" height="20%">
 <img src="https://github.com/fazhongxu/LAlertDialog/blob/master/images/002.png" width="50%" height="20%">
 
 #### Dialog展示轮播图
 <img src="https://github.com/fazhongxu/LAlertDialog/blob/master/images/003.jpg" width="50%" height="20%">
-</div>
 ### demo apk
 ### Demo 地址  https://github.com/fazhongxu/LAlertDialog/blob/master/apk/lalertdialog.apk
